@@ -9,13 +9,13 @@ import Foundation
 
 var sailing = Sailing()
 
-print("de->en:")
-printDict(dict: sailing.deen)
+print("\nde->en:")
+//printDict(dict: sailing.deen)
 
-print("en->de:")
+print("\nen->de:")
 printDict(dict: sailing.ende)
 
-func printDict(dict: [String: String]) {
+func printDict(dict: [String: [String]]) {
     let keys = dict.keys
     let sortedKeys = keys.sorted {
         let left = $0.deletingPrefix("to ")
@@ -23,8 +23,11 @@ func printDict(dict: [String: String]) {
         return left.lowercased() < right.lowercased()
     }
     
+    var i=1
     for key in sortedKeys {
-        print("  \(key):\t\t\t \(dict[key]!)")
+//        print("\(i):  \(key):\t\t\t \(dict[key]!.joined(separator: ", "))")
+        print("\(key)\t\(dict[key]!.joined(separator: ", "))")
+        i+=1
     }
 }
 
