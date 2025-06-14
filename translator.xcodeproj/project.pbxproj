@@ -27,6 +27,8 @@
 		291DACEA2BB5E15900FFCD88 /* translator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = translator; sourceTree = BUILT_PRODUCTS_DIR; };
 		291DACED2BB5E15900FFCD88 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		291DACF42BB5E17000FFCD88 /* Sailing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sailing.swift; sourceTree = "<group>"; };
+		29DCAF492DFE0E1400B1C060 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		29DCAF4A2DFE0E1400B1C060 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,8 @@
 		291DACE12BB5E15900FFCD88 = {
 			isa = PBXGroup;
 			children = (
+				29DCAF4A2DFE0E1400B1C060 /* README.md */,
+				29DCAF492DFE0E1400B1C060 /* LICENSE */,
 				291DACEC2BB5E15900FFCD88 /* translator */,
 				291DACEB2BB5E15900FFCD88 /* Products */,
 			);
