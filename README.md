@@ -6,7 +6,7 @@ Used in the creation of a [German–English sailing dictionary](http://rennstoff
 
 ### 💡 Overview
 
-This project helps build two-way dictionaries, starting with a Dictionary<String, [String]> from one language to another.
+This project helps build two-way dictionaries, starting with a Dictionary `<String, [String]>` from one language to another.
 
 Example use case: 
 
