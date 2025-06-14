@@ -10,10 +10,11 @@ import Foundation
 var sailing = Sailing()
 
 print("\nde->en:")
-//printDict(dict: sailing.deen)
+printDict(dict: sailing.deen)
 
 print("\nen->de:")
 printDict(dict: sailing.ende)
+
 
 func printDict(dict: [String: [String]]) {
     let keys = dict.keys
